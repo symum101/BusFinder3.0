@@ -36,7 +36,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBpeGYmeIEmbgDRzE6S-dFdz822QKiTERA" />
+            android:value="Google_API_Key" />
 
         <activity
             android:name=".ShowRouteFive"
