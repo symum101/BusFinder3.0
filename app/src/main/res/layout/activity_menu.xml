@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#392F3460"
+    tools:context=".MenuActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_temp"
+        app:itemIconTint="@drawable/shape_temp_2"
+        app:itemTextColor="@drawable/shape_temp_2"
+        app:menu="@menu/menu_bar" />
+
+    <Button
+        style="@style/Widget.Material3.Button.Icon"
+        app:icon = "@drawable/ic_round_error_outline_24"
+        android:id="@+id/btnHotline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        android:layout_above="@+id/btnLogout"
+        android:backgroundTint="#F44336"
+        android:text="CALL 999"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#DEE0E8"
+        android:text="Log out"
+        android:elevation="5dp"
+        android:textColor="#3F51B5"
+        android:textSize="20dp" />
+
+</RelativeLayout>

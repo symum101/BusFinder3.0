@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BusFinder</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    //table headers
+    <string name="col1">Stoppages</string>
+    <string name="col2">First Trip (Pickup time)</string>
+    <string name="col3">Second Trip (Pickup time)</string>
+
+    //first row
+    <string name="row1name">Kallyanpur Bus Stand</string>
+    <string name="row1time1">6.30 AM</string>
+    <string name="row1time2">9.15 AM</string>
+
+    //second row
+    <string name="row2name">Govt. Bangla College</string>
+    <string name="row2time1">6.35 AM</string>
+    <string name="row2time2">9.20 AM</string>
+
+    //third row
+    <string name="row3name">Sony Cinema Hall (Near KFC)</string>
+    <string name="row3time1">6.40 AM</string>
+    <string name="row3time2">9.25 AM</string>
+
+    //fourth row
+    <string name="row4name">Senpara (Near Al Helal)</string>
+    <string name="row4time1">6.50 AM</string>
+    <string name="row4time2">9.40 AM</string>
+
+    //fifth row
+    <string name="row5name">Shewrapara (near Pubali Bank)</string>
+    <string name="row5time1">6.55 AM</string>
+    <string name="row5time2">9.45 AM</string>
+
+    //sixth row
+    <string name="row6name">BRAC University (Arrival)</string>
+    <string name="row6time1">7.40 AM</string>
+    <string name="row6time2">10.50 AM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_show_route_one">ShowRouteOne</string>
+    <string name="title_activity_show_route_two">ShowRouteTwo</string>
+    <string name="title_activity_show_route_three">ShowRouteThree</string>
+    <string name="title_activity_show_route_four">ShowRouteFour</string>
+    <string name="title_activity_show_route_five">ShowRouteFive</string>
+
+</resources>

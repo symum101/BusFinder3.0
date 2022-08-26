@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABD1FA"
+    tools:context=".TimetableActivity"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_temp"
+        app:itemIconTint="@drawable/shape_temp_2"
+        app:itemTextColor="@drawable/shape_temp_2"
+        app:menu="@menu/menu_bar" />
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/anton"
+        android:text="Tap on a route to check schedule"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnBusOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_below="@+id/text_welcome"
+        android:text="Route 1: [abdullahpur]"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:elevation="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnBusTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBusOne"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Route 2: [kallyanpur]"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_margin="5dp"
+        android:elevation="5dp"/>
+
+
+    <Button
+        android:id="@+id/btnBusThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBusTwo"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Route 3: [Jigatola]"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_margin="5dp"
+        android:elevation="5dp"/>
+
+
+    <Button
+        android:id="@+id/btnBusFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBusThree"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Route 4: [New Market]"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_margin="5dp"
+        android:elevation="5dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnBusFive"
+        android:layout_below="@+id/btnBusFour"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Route 5: [jatrabari]"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"/>
+
+
+
+
+
+
+
+</RelativeLayout>

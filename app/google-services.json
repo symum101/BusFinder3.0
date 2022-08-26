@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "383734596887",
+    "project_id": "busfinder3",
+    "storage_bucket": "busfinder3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383734596887:android:4982fd69a8942adfcfa352",
+        "android_client_info": {
+          "package_name": "com.example.busfinder3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383734596887-s7gv14c9r6d1sucogui4fi5l0uhmsppb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.busfinder3",
+            "certificate_hash": "78aef4c3e631a80b7ab15f86cc680bdf02b83913"
+          }
+        },
+        {
+          "client_id": "383734596887-935obe98upk3soti8rdrb2fvmdrv85jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGFri2aqvvM4J8A9I282aeTGXbcQwSJVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383734596887-935obe98upk3soti8rdrb2fvmdrv85jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

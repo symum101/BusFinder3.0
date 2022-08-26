@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BusFinder3/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.209" />
+        <entry key="..\:/BusFinder3/app/src/main/res/drawable/menu.xml" value="0.1045" />
+        <entry key="..\:/BusFinder3/app/src/main/res/drawable/shape_temp.xml" value="0.3015" />
+        <entry key="..\:/BusFinder3/app/src/main/res/drawable/transparent_rect.xml" value="0.3015" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_announcement.xml" value="0.2777777777777778" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_announcements.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_bus_five_timetable.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_bus_four_timetable.xml" value="0.35794871794871796" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_bus_one_timetable.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_bus_three_timetable.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_bus_two_timetable.xml" value="0.3559322033898305" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_login.xml" value="0.30462962962962964" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_main.xml" value="0.3574074074074074" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_maps.xml" value="0.3625" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_menu.xml" value="0.3574074074074074" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_show_route_five.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_show_route_four.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_show_route_one.xml" value="0.35794871794871796" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_show_route_three.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_show_route_two.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_splash_screen.xml" value="0.24722222222222223" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/activity_timetable.xml" value="0.35794871794871796" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/announcement_row.xml" value="0.29743589743589743" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/custom_dialog.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/fragment_a.xml" value="0.34444444444444444" />
+        <entry key="..\:/BusFinder3/app/src/main/res/layout/fragment_maps.xml" value="0.36354166666666665" />
+        <entry key="..\:/BusFinder3/app/src/main/res/menu/bottomnavigationmenu.xml" value="0.3625" />
+        <entry key="..\:/BusFinder3/app/src/main/res/menu/menu_bar.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

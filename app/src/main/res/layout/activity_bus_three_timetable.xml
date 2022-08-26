@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#942D3C8E"
+    tools:context=".BusThreeTimetableActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar_t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_temp"
+        app:itemIconTint="@drawable/shape_temp_2"
+        app:itemTextColor="@drawable/shape_temp_2"
+        app:menu="@menu/menu_bar" />
+
+    <TableLayout
+        android:id="@+id/table3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp">
+
+        //Table Header
+        <TableRow
+            android:background="@color/purple_700">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col3"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+
+
+        </TableRow>
+
+        //Table Row Data
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Jigatola Bus Stand"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1time1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1time2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Shankar Bus Stand"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2time1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2time2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mohammadpur Bus Stand"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3time1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3time2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Manik Mia Aveneu"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4time1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4time2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row6name"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row6time1"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row6time2"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_showRoute3"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table3"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#02b30a"
+        android:elevation="5dp"
+        android:text="Show in Map"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        app:icon="@drawable/marker" />
+
+    <Button
+        android:id="@+id/callbtnBusThree"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_showRoute3"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#02b30a"
+        android:text="Contact Conductor"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:icon="@drawable/ic_baseline_call_24"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please do not call except trip time"
+        android:textSize="10dp"
+        android:textColor="#FF0000"
+        android:layout_below="@id/callbtnBusThree"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>
